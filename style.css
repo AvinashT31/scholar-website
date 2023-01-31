@@ -5,16 +5,17 @@
 }
 .container{
     /* border: 1px solid black; */
-    height: 700px;
+    height: 900px;
     width: 100%;
     background: url(/img/banner-bg.jpg);
     border-bottom-right-radius: 200px;
 
 }
 .navbar{
+    border: 1px solid black;
    display: flex;
    margin-top: 30px;
-   position: fixed  ;
+   position: fixed;
    /* justify-content: space-evenly; */
 }
 
@@ -79,11 +80,75 @@ ul li a:hover{
 }
 
 
-.container >  div:nth-child(2) img{
-    margin-top: 130px;
-    margin-left: 180px;
-    width: 75%;
-    height: 550px;
+.mid{
+    border: 1px solid black;
+    height: 500px;
+}
+
+.mid > div:nth-child(1){
+    border: 1px solid black;
+}
+
+
+.mid > div:nth-child(1) > input{
+    margin: 10px;
+    width: 121px;
+    padding-left: 15px;
+    height: 24px;
     border-radius: 15px;
+    color: yellow;
+    cursor: pointer;
+    /* background-color: rgb(122,106,216); */
 
 }
+
+.mid > div:nth-child(2){
+  border: 1px solid black;
+}
+
+.mid > div:nth-child(2) >h2{
+    font-size: 34px;
+    color: white;
+    margin-top: 20px
+}
+
+.mid > div:nth-child(3){
+ border: 1px solid black  ;
+
+}
+
+.mid > div:nth-child(3) >p{
+     color: white;
+}
+
+.mid > div:nth-child(4){
+    border: 1px solid black;
+
+}
+
+.mid > div:nth-child(4) >button{
+    height: 46px;
+    width: 152px;
+    border-radius: 30px;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.mid > div:nth-child(4) >i{
+    border: 1px solid black;
+    width: 22px;
+    height: 28px;
+    padding-left: 14px;
+    padding-top: 11px;
+    border-radius: 68px;
+    margin-left: 25px;
+    background-color: white;
+    color: blue;
+}
+
+.mid > div:nth-child(4) >span{
+    color: white;
+    margin-left: 10px;
+}
+
