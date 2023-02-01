@@ -609,12 +609,19 @@ ul li a:hover{
 }
 
 
-/* Section-four */
+/* Course Content */
+
+
+#box-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
 
 .box-item1{
     border: 1px solid black;
-    width: 25%;
-    height: 350px;
+    width: 30%;
+    height: 400px;
     margin-top: 80px;
     border-radius: 33px;
     margin-left: 10px;
@@ -624,7 +631,7 @@ ul li a:hover{
 }
 
 .f-item{
-    height: 253px;
+    height: 300px;
     width: 100%;
     background: url(/img/course-01.jpg);
     border-radius: 31px;
@@ -676,4 +683,563 @@ ul li a:hover{
 
 .box-item1 > div:nth-child(2) h1{
 font-size: 28px;
+}
+
+.box-item2{
+    border: 1px solid black;
+    width: 30%;
+    height: 400px;
+    margin-top: 80px;
+    border-radius: 33px;
+    margin-left: 10px;
+    background-color: rgb(241,240,254);
+    border: none;
+    outline: none;
+}
+
+.f-item1{
+    height: 300px;
+    width: 100%;
+    background: url(/img/course-02.jpg);
+    border-radius: 31px;
+}
+
+.f-item1 > div:nth-child(1) button{
+    width: 140px;
+    height: 32px;
+    font-size: 15px;
+    border-radius: 23px;
+    margin-left: 28px;
+    margin-top: 31px;
+    background-color: rgb(240,239,239);
+    border: none;
+    outline: none;
+}
+
+.f-item1 > div:nth-child(2){
+    border: 1px solid black;
+    width: 101px;
+    height: 90px;
+    float: right;
+    position: relative;
+    border-radius: 31px;
+    border-bottom-left-radius: 59px;
+    bottom: 25%;
+    background-color: rgb(127,110,213);
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.f-item1 > div:nth-child(2) h1{
+    font-size: 33px;
+    padding-left: 14px;
+    padding-top: 24px;
+}
+
+.box-item2 > div:nth-child(2) {
+    margin-left: 32px;
+    margin-top: 18px;
+}
+
+.box-item2 > div:nth-child(2) p{
+    margin-bottom: 5px;
+    font-size: 17px;
+    color: rgb(129,106,216);
+}
+
+.box-item2 > div:nth-child(2) h1{
+font-size: 28px;
+}
+
+.box-item3{
+    border: 1px solid black;
+    width: 30%;
+    height: 400px;
+    margin-top: 80px;
+    border-radius: 33px;
+    margin-left: 10px;
+    background-color: rgb(241,240,254);
+    border: none;
+    outline: none;
+}
+
+.f-item2{
+    height: 300px;
+    width: 100%;
+    background: url(/img/course-03.jpg);
+    border-radius: 31px;
+}
+
+.f-item2 > div:nth-child(1) button{
+    width: 118px;
+    height: 32px;
+    font-size: 15px;
+    border-radius: 23px;
+    margin-left: 28px;
+    margin-top: 31px;
+    background-color: rgb(240,239,239);
+    border: none;
+    outline: none;
+}
+
+.f-item2 > div:nth-child(2){
+    border: 1px solid black;
+    width: 101px;
+    height: 90px;
+    float: right;
+    position: relative;
+    border-radius: 31px;
+    border-bottom-left-radius: 59px;
+    bottom: 25%;
+    background-color: rgb(127,110,213);
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.f-item2 > div:nth-child(2) h1{
+    font-size: 33px;
+    padding-left: 14px;
+    padding-top: 24px;
+}
+
+.box-item3 > div:nth-child(2) {
+    margin-left: 32px;
+    margin-top: 18px;
+}
+
+.box-item3 > div:nth-child(2) p{
+    margin-bottom: 5px;
+    font-size: 17px;
+    color: rgb(129,106,216);
+}
+
+.box-item3 > div:nth-child(2) h1{
+font-size: 28px;
+}
+
+.box-item4{
+    border: 1px solid black;
+    width: 30%;
+    height: 400px;
+    margin-top: 80px;
+    border-radius: 33px;
+    margin-left: 10px;
+    background-color: rgb(241,240,254);
+    border: none;
+    outline: none;
+}
+
+.f-item3{
+    height: 300px;
+    width: 100%;
+    background: url(/img/course-04.jpg);
+    border-radius: 31px;
+}
+
+.f-item3 > div:nth-child(1) button{
+    width: 140px;
+    height: 32px;
+    font-size: 15px;
+    border-radius: 23px;
+    margin-left: 28px;
+    margin-top: 31px;
+    background-color: rgb(240,239,239);
+    border: none;
+    outline: none;
+}
+
+.f-item3 > div:nth-child(2){
+    border: 1px solid black;
+    width: 101px;
+    height: 90px;
+    float: right;
+    position: relative;
+    border-radius: 31px;
+    border-bottom-left-radius: 59px;
+    bottom: 25%;
+    background-color: rgb(127,110,213);
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.f-item3 > div:nth-child(2) h1{
+    font-size: 33px;
+    padding-left: 14px;
+    padding-top: 24px;
+}
+
+.box-item4 > div:nth-child(2) {
+    margin-left: 32px;
+    margin-top: 18px;
+}
+
+.box-item4 > div:nth-child(2) p{
+    margin-bottom: 5px;
+    font-size: 17px;
+    color: rgb(129,106,216);
+}
+
+.box-item4 > div:nth-child(2) h1{
+font-size: 28px;
+}
+
+.box-item5{
+    border: 1px solid black;
+    width: 30%;
+    height: 400px;
+    margin-top: 80px;
+    border-radius: 33px;
+    margin-left: 10px;
+    background-color: rgb(241,240,254);
+    border: none;
+    outline: none;
+}
+
+.f-item4{
+    height: 300px;
+    width: 100%;
+    background: url(/img/course-05.jpg);
+    border-radius: 31px;
+}
+
+.f-item4 > div:nth-child(1) button{
+    width: 118px;
+    height: 32px;
+    font-size: 15px;
+    border-radius: 23px;
+    margin-left: 28px;
+    margin-top: 31px;
+    background-color: rgb(240,239,239);
+    border: none;
+    outline: none;
+}
+
+.f-item4 > div:nth-child(2){
+    border: 1px solid black;
+    width: 101px;
+    height: 90px;
+    float: right;
+    position: relative;
+    border-radius: 31px;
+    border-bottom-left-radius: 59px;
+    bottom: 25%;
+    background-color: rgb(127,110,213);
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.f-item4 > div:nth-child(2) h1{
+    font-size: 33px;
+    padding-left: 14px;
+    padding-top: 24px;
+}
+
+.box-item5 > div:nth-child(2) {
+    margin-left: 32px;
+    margin-top: 18px;
+}
+
+.box-item5 > div:nth-child(2) p{
+    margin-bottom: 5px;
+    font-size: 17px;
+    color: rgb(129,106,216);
+}
+
+.box-item5 > div:nth-child(2) h1{
+font-size: 28px;
+}
+
+.box-item6{
+    border: 1px solid black;
+    width: 30%;
+    height: 400px;
+    margin-top: 80px;
+    border-radius: 33px;
+    margin-left: 10px;
+    background-color: rgb(241,240,254);
+    border: none;
+    outline: none;
+}
+
+.f-item5{
+    height: 300px;
+    width: 100%;
+    background: url(/img/course-06.jpg);
+    border-radius: 31px;
+}
+
+.f-item5 > div:nth-child(1) button{
+    width: 118px;
+    height: 32px;
+    font-size: 15px;
+    border-radius: 23px;
+    margin-left: 28px;
+    margin-top: 31px;
+    background-color: rgb(240,239,239);
+    border: none;
+    outline: none;
+}
+
+.f-item5 > div:nth-child(2){
+    border: 1px solid black;
+    width: 101px;
+    height: 90px;
+    float: right;
+    position: relative;
+    border-radius: 31px;
+    border-bottom-left-radius: 59px;
+    bottom: 25%;
+    background-color: rgb(127,110,213);
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.f-item5 > div:nth-child(2) h1{
+    font-size: 33px;
+    padding-left: 14px;
+    padding-top: 24px;
+}
+
+.box-item6 > div:nth-child(2) {
+    margin-left: 32px;
+    margin-top: 18px;
+}
+
+.box-item6 > div:nth-child(2) p{
+    margin-bottom: 5px;
+    font-size: 17px;
+    color: rgb(129,106,216);
+}
+
+.box-item6 > div:nth-child(2) h1{
+font-size: 28px;
+}
+
+#student-bar{
+    border: 1px solid black;
+    height: 230px;
+    width: 80%;
+    margin-top: 100px;
+    border-top-right-radius: 140px;
+    border-bottom-right-radius: 140px;
+    background-image: url(/img/banner-bg.jpg);
+}
+
+.student-bar1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.student-bar1 h1{
+    color: white;
+}
+
+.student-bar1 p{
+    color: white;
+    font-size: 30px;
+}
+
+.student-bar1 > div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.student-bar1 > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.student-bar1 > div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.student-bar1 > div:nth-child(4){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#member-info{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 300px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first-member{
+   border: 1px solid black;
+   height: 266px;
+   width: 18%;
+   border-radius: 31px;
+   background-color: rgb(241,240,254);
+   border: none;
+   outline: none;
+   display: flex;  
+}
+
+.first-member > div:nth-child(2) img{
+    position: relative;
+    left: 66%;
+    bottom: 128%;
+    margin-left: -188px;
+    top: -55%;
+    border-radius: 107px;
+}
+
+.first-member-item1 > div:nth-child(1) p{
+    width: 45%;
+    margin-left: 80px;
+    /* margin-top: 90px; */
+    color: rgb(133,121,217);
+    padding-top: 130px;
+}
+
+.first-member-item1 > div:nth-child(1) h3{
+   font-size: 25px;
+   margin-top: 10px;
+   margin-left: 57px;
+}
+.first-member-item1 >div:nth-child(2){
+    margin-left: 53px;
+    margin-top: 18px
+}
+.first-member-item1 > div:nth-child(2) i{
+   padding-left: 20px;
+}
+
+.second-member{
+    border: 1px solid black;
+    height: 266px;
+    width: 18%;
+    border-radius: 31px;
+    background-color: rgb(241,240,254);
+    border: none;
+    outline: none;
+    display: flex;  
+ }
+ 
+ .second-member > div:nth-child(2) img{
+     position: relative;
+     left: 66%;
+     bottom: 128%;
+     margin-left: -200px;
+     top: -55%;
+     border-radius: 107px;
+ }
+ 
+ .second-member-item2 > div:nth-child(1) p{
+     width: 58%;
+     margin-left: 70px;
+     /* margin-top: 90px; */
+     color: rgb(133,121,217);
+     padding-top: 130px;
+ }
+ 
+ .second-member-item2 > div:nth-child(1) h3{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 57px;
+ }
+ .second-member-item2 >div:nth-child(2){
+     margin-left: 60px;
+     margin-top: 18px
+ }
+ .second-member-item2 > div:nth-child(2) i{
+    padding-left: 20px;
+ }
+ 
+.third-member{
+    border: 1px solid black;
+    height: 266px;
+    width: 18%;
+    border-radius: 31px;
+    background-color: rgb(241,240,254);
+    border: none;
+    outline: none;
+    display: flex;  
+}
+ 
+.third-member > div:nth-child(2) img{
+     position: relative;
+     left: 30%;
+     bottom: 128%;
+     margin-left: -188px;
+     top: -55%;
+     border-radius: 107px;
+}
+ 
+.third-member-item3 > div:nth-child(1) p{
+     width: 57%;
+     margin-left: 80px;
+     /* margin-top: 90px; */
+     color: rgb(133,121,217);
+     padding-top: 130px;
+}
+ 
+.third-member-item3 > div:nth-child(1) h3{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 57px;
+}
+ .third-member-item3 >div:nth-child(2){
+     margin-left: 60px;
+     margin-top: 18px
+}
+ .third-member-item3 > div:nth-child(2) i{
+    padding-left: 20px;
+}
+
+.fourth-member{
+    border: 1px solid black;
+    height: 266px;
+    width: 18%;
+    border-radius: 31px;
+    background-color: rgb(241,240,254);
+    border: none;
+    outline: none;
+    display: flex;  
+}
+ 
+.fourth-member > div:nth-child(2) img{
+     position: relative;
+     left: 66%;
+     bottom: 128%;
+     margin-left: -188px;
+     top: -55%;
+     border-radius: 107px;
+}
+ 
+.fourth-member-item4 > div:nth-child(1) p{
+     width: 58%;
+     margin-left: 80px;
+     /* margin-top: 90px; */
+     color: rgb(133,121,217);
+     padding-top: 130px;
+}
+ 
+.fourth-member-item4 > div:nth-child(1) h3{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 78px;
+}
+
+.fourth-member-item4 >div:nth-child(2){
+     margin-left: 68px;
+     margin-top: 18px
+}
+
+.fourth-member-item4 > div:nth-child(2) i{
+    padding-left: 20px;
 }
